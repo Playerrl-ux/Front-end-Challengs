@@ -1,0 +1,80 @@
+.blue-background{
+    background-color: hsl(212, 45%, 89%);
+}
+
+.white-background{
+    background-color: white;
+}
+
+.full-screen{
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover{
+    object-fit: cover;
+    width: 90%;
+    height: 90%;
+}
+
+.border-radius{
+    border-radius: 5%;
+}
+
+.card{
+    width: 85%;
+    
+}
+
+@media (min-width: 400px) {
+    .card{
+        width: 375px;
+        height: 560px;
+    }
+}
+
+.h1-format{
+    width: 100%;
+    font-size: 25px;
+    font-family: 'Outfit', Bold;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    
+}
+
+.p-format{
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Outfit', Regular;
+    font-weight: 400;
+    color: hsl(216, 15%, 48%);
+}
+
+.margin-top-15{
+    margin-top: 15px;
+}
+
+.margin-bottom-40{
+    margin-bottom: 40px;
+}
+
+.margin-top-25{
+    margin-top: 25px;
+}
+
+.center{
+    text-align: center;
+}
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
